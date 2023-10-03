@@ -28,8 +28,6 @@ const HeroSection = () => {
                 1000,
                 "Web Developer",
                 1000,
-                "UI/UX Designer",
-                1000,
               ]}
               wrapper="span"
               speed={50}
@@ -61,7 +59,7 @@ const HeroSection = () => {
         >
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
-              src="/images/hero-image.png"
+              src="/images/my.png"
               alt="hero image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={300}
